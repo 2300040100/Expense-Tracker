@@ -1,0 +1,121 @@
+/* General */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    padding: 12px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+/* Cards */
+.card {
+    border-radius: 16px;
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #3a0ca3, #4361ee);
+    transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+    border-color: #4361ee;
+    color: #4361ee;
+    border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4361ee;
+}
+
+.btn-outline-secondary {
+    border-radius: 10px;
+}
+
+.btn-outline-danger {
+    border-radius: 8px;
+}
+
+/* Forms */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1.5px solid #e0e0e0;
+    padding: 10px 14px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+}
+
+.input-group-text {
+    background-color: #f0f4ff;
+    border: 1.5px solid #e0e0e0;
+    color: #4361ee;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Table */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #6c757d;
+    border: none;
+}
+
+.table tbody tr:hover {
+    background-color: #f0f4ff;
+}
+
+/* Badge */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Alert */
+.alert {
+    border-radius: 12px;
+    border: none;
+}
+
+/* Login/Register card */
+.card-body {
+    border-radius: 16px;
+}
