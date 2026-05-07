@@ -4,7 +4,10 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from datetime import datetime
 import re
 
-TOKEN = "8527001458:AAEuLfDwd2LUHYeGbFpXHSaApZHJWGsXIMY"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 
